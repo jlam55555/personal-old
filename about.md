@@ -4,10 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is a simple blog that I have made. If you happened to stumble here by looking at one of my GitHub Pages projects, here are some more for inspiration:
+This is a simple list of web projects I have made. If you happened to stumble here by looking at one of my GitHub Pages projects, here are some more for inspiration:
 
 ### Major Productions
 
+- [**Safe Rides of Redding and Easton** (SRRE)](https://safe-rides-redding-easton.herokuapp.com) &middot; A mobile web-app for the Safe Rides program in the ER9 region for high schoolers.
 - [**RingTune**](/ringtune-website) &middot; Make music based on statistics of pleasing chord progressions. "The type prediction for music." Fancy graphics too. Won third place at LIHacks. Much JS involved, plus assets courtesy of [@all88keys](https://www.github.com/all88keys).
 - [**Nutmeg Bowl**](/nutmegbowl) &middot; An mockup of the [Nutmeg Bowl website](http://www.nutmegbowl.com/) as a proposed update to theirs. Currently pending.
 
@@ -25,3 +26,8 @@ This is a simple blog that I have made. If you happened to stumble here by looki
 - [**Speller**](/speller) &middot; A spelling-bee training aid. Currently comes packaged with 450 middle-school challenge terms by default.
 - [**Flappy**](/flappy) &middot; My cheap Flappy Bird ripoff. Created with JS and HTML5 canvas.
 - [**Planetary**](/planetary) &middot; A simple jQuery animation inspired by [@huntrr](https://www.github.com/huntrr).
+
+### Blogs
+
+- [**The Homework Life**](http://www.thehomeworklife.co.nf) &middot; First blog designed to improve my English skills and design a blog from scratch. Server written in PHP.
+- [**Everything is Sheep**](https://everything-is-sheep.herokuapp.com) &middot; Second blog designed around Node.js and designed to create a faster, more decked-out, cleaner blog than the last one. Also meant to improve my writing.
