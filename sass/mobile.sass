@@ -1,0 +1,101 @@
+$blue: #6797A1
+$white: #F2F8EA
+$pink: #FABFA1
+$green: #E3E7B1
+$yellow: #ECEFA9
+/* color pallette courtesy of: http://flatcolors.net/palette/460-iam-truckburger */
+
+$darkgrey: #444B54
+/* from http://flatcolors.net/palette/745-urban-humanity */
+
+$font: 'poiret one', sans-serif
+$codeFont: 'source code pro', courier new
+$timing: 1s
+
+/* general styles */
+*
+  box-sizing: border-box
+
+html, body 
+  margin: 0 auto
+  padding: 0
+  background-color: white
+  font-family: $font
+  font-size: 16px
+  padding: 1em
+  max-width: 50em
+
+/* animated classes */
+@keyframes borderAnimation
+  0%
+    width: 0
+    height: 0
+  60%
+    width: 100%
+    height: 0%
+  100%
+    width: 100%
+    height: 100%
+
+.animatedBorder
+  display: block
+  content: ""
+  position: absolute
+
+.animatedBorderBefore
+  @extend .animatedBorder
+  border-top: 1px solid $blue
+  border-right: 1px solid $blue
+  top: 0
+  left: 0
+  animation: borderAnimation $timing linear 0s 1 normal forwards
+
+.animatedBorderAfter
+  @extend .animatedBorder
+  border-bottom: 1px solid $blue
+  border-left: 1px solid $blue
+  bottom: 0
+  right: 0
+  animation: borderAnimation $timing linear $timing 1 normal forwards
+
+/* specific styles */
+#title
+  position: relative
+  font-weight: normal
+  color: $blue
+  text-align: center
+  display: flex
+  padding: 2em 0
+  flex-direction: column
+  justify-content: center
+
+  &::before
+    @extend .animatedBorderBefore
+
+  &::after
+    @extend .animatedBorderAfter
+
+#terminal
+  background-color: $darkgrey
+  color: $white
+  padding: 0.5em
+  border-radius: 0.25em
+  font-family: $codeFont
+  overflow: hidden
+
+@keyframes blinkAnimation
+  0%
+    color: transparent
+  50%
+    color: transparent
+  51%
+    color: $white
+  100%
+    color: $white
+
+#cursor
+  color: transparent
+  padding-left: 0.2em
+  
+  &.blinking
+    animation: blinkAnimation 2s infinite

@@ -1,18 +1,20 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jonathan Lam <jlam55555@gmail.com>">
+    <meta name="description" content="Jonathan Lam's personal website">
+    <meta name="keywords" content="jonathan lam, programmer, hacker, mathematician, rubiks cubing">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jonathan Lam</title>
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <h1 id="title">Jonathan Lam</h1>
+    <div id="terminal"><strong>jon@life:~$</strong> <span id="dynamicTerminal"></span><span id="cursor">&#9608;</span></div>
+  </body>
+</html>
