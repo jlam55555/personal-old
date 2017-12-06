@@ -13,8 +13,10 @@ $(() => {
   var random = n => Math.floor(Math.random() * (typeof n === "object" ? n.length : n));
 
   // onload animation
-  $title.css({margin: ($window.height() - $title.innerHeight())/2 + "px 0"});
-  setTimeout(() => $title.addClass("normalMargins"), 1000);
+  if($window.scrollTop() === 0) {
+    $title.css({margin: ($window.height() - $title.innerHeight())/2 + "px 0"});
+    setTimeout(() => $title.addClass("normalMargins"), 1000);
+  }
 
   // dynamic terminal
   var actions = ["brother", "math", "run", "blog", "code", "build", "cube", "bowl", "teach", "learn", "hack"];
