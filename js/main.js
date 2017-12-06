@@ -14,7 +14,7 @@ $(() => {
 
   // redirect from github site
   if(window.location.href.indexOf("jlam55555.github.io") >= 0) {
-    window.location.href = "http://www.jonathanlam.tech";
+    window.location.href = "http://jonathanlam.tech";
   }
 
   // onload animation
