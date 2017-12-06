@@ -1,0 +1,12 @@
+/* color pallette courtesy of: http://flatcolors.net/palette/460-iam-truckburger */
+/* from http://flatcolors.net/palette/745-urban-humanity */
+fieldset .project {
+  flex-direction: row; }
+  fieldset .project .projectInfo {
+    font-family: "source code pro", courier new;
+    padding: 1em; }
+  fieldset .project .projectImage {
+    width: 15em;
+    height: 15em; }
+
+/*# sourceMappingURL=desktop.css.map */

@@ -1,20 +1,11 @@
-$blue: #6797A1
-$white: #F2F8EA
-$pink: #FABFA1
-$green: #E3E7B1
-$yellow: #ECEFA9
-/* color pallette courtesy of: http://flatcolors.net/palette/460-iam-truckburger */
-
-$darkgrey: #444B54
-/* from http://flatcolors.net/palette/745-urban-humanity */
-
-$font: 'poiret one', sans-serif
-$codeFont: 'source code pro', courier new
-$timing: 1s
+@import imports
 
 /* general styles */
 *
   box-sizing: border-box
+
+a
+  color: $darkgrey
 
 html, body 
   margin: 0 auto
@@ -22,6 +13,8 @@ html, body
   background-color: white
   font-family: $font
   font-size: 16px
+  font-weight: 300
+  color: $darkgrey
   padding: 1em
   max-width: 50em
   height: 100%
@@ -63,7 +56,7 @@ html, body
 /* specific styles */
 #title
   position: relative
-  font-weight: normal
+  font-weight: 300
   color: $blue
   text-align: center
   display: flex
@@ -105,3 +98,26 @@ html, body
   
   &.blinking
     animation: blinkAnimation 2s infinite
+
+fieldset
+  border: 1px solid $blue
+  margin: 2em 0
+
+  legend
+    color: $blue
+    font-weight: 500
+
+  .project
+    box-shadow: $darkgrey 0 0 1px
+    padding: 0
+    margin: 2em 1em
+    display: flex
+    flex-direction: column
+    background-color: $coolblue
+    text-decoration: none
+
+    h3, p
+      margin: 0.5em
+
+    .projectImage
+      width: 100%

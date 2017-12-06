@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jonathan Lam</title>
     <link rel="stylesheet" href="./css/mobile.css">
-    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1000px)">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
@@ -16,5 +17,27 @@
   <body>
     <h1 id="title">Jonathan Lam</h1>
     <div id="terminal"><strong>jon@life:~$</strong> <span id="dynamicTerminal"></span><span id="cursor">&#9608;</span></div>
+    <fieldset id="about">
+      <legend>About me</legend>
+    </fieldset>
+    <fieldset id="projects">
+      <legend>Projects I've worked on</legend>
+      <a href="http://eis.jonathanlam.tech" target="_blank" class="project">
+        <div class="projectInfo">
+          <h3>Everything is Sheep</h3>
+          <p>eis.jonathanlam.tech</p>
+          <p>A playground for free-form teenage writing</p>
+        </div>
+        <img class="projectImage" src="img/everything-is-sheep.png">
+      </div>
+      <a href="http://thehomeworklife.co.nf" target="_blank" class="project">
+        <div class="projectInfo">
+          <h3>The Homework Life</h3>
+          <p>thehomeworklife.co.nf</p>
+          <p>The joys and pains of a high-school career</p>
+        </div>
+        <img class="projectImage" src="img/the-homework-life.png">
+      </div>
+    </fieldset>
   </body>
 </html>
