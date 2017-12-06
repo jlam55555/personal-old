@@ -108,6 +108,9 @@ fieldset {
     position: relative; }
     fieldset .project h3, fieldset .project p {
       margin: 0.5em; }
+    fieldset .project .linkP {
+      font-size: 0.6em;
+      margin: 0.87em; }
     fieldset .project .projectImage {
       width: 100%; }
 
