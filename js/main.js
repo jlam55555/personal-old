@@ -12,6 +12,11 @@ $(() => {
   // convenience functions
   var random = n => Math.floor(Math.random() * (typeof n === "object" ? n.length : n));
 
+  // redirect from github site
+  if(window.location.href.indexOf("jlam55555.github.io") >= 0) {
+    window.location.href = "http://www.jonathanlam.tech";
+  }
+
   // onload animation
   if($window.scrollTop() === 0) {
     $title.css({margin: ($window.height() - $title.innerHeight())/2 + "px 0"});
