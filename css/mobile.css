@@ -104,7 +104,8 @@ fieldset {
     display: flex;
     flex-direction: column;
     background-color: #F6F7F2;
-    text-decoration: none; }
+    text-decoration: none;
+    position: relative; }
     fieldset .project h3, fieldset .project p {
       margin: 0.5em; }
     fieldset .project .projectImage {
