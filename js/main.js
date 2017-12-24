@@ -167,8 +167,20 @@ $(() => {
     {
       url: "http://jonathanlam.tech/planetary",
       title: "Planetary",
-      link: "jonathanalam.tech/planetary",
+      link: "jonathanlam.tech/planetary",
       description: "A simple jQuery animation inspired by @huntrr"
+    },
+    {
+      url: "http://barlowbowling.github.io",
+      title: "Barlow Bowling",
+      link: "barlowbowling.github.io",
+      description: "The website for the Barlow Bowling Team"
+    },
+    {
+      url: "http://barlowprogramming.github.io",
+      title: "Barlow Programming",
+      link: "barlowprogramming.github.io",
+      description: "The website for the Barlow Programming Team"
     }
   ];
   for(var project of projects) {
