@@ -16,7 +16,8 @@ html, body {
   font-weight: 300;
   color: #444444;
   padding: 1em;
-  max-width: 50em; }
+  max-width: 50em;
+  max-height: 100%; }
 
 /* animated classes */
 @keyframes borderAnimation {
@@ -113,5 +114,12 @@ fieldset {
       margin: 0.87em; }
     fieldset .project .projectImage {
       width: 100%; }
+
+.profileBadge {
+  margin: 1em 0;
+  display: block;
+  text-align: center; }
+  .profileBadge img {
+    margin: 0 auto; }
 
 /*# sourceMappingURL=mobile.css.map */
