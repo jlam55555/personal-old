@@ -1,14 +1,22 @@
 @import imports
 
+body
+  margin: 2em auto
+
 fieldset
   
   .project
     flex-direction: row
+    max-width: 100%
 
     .projectInfo
       font-family: $codeFont
       padding: 1em
+      flex-basis: calc(100% - 15em)
+      flex-grow: 0
+      flex-shrink: 0
 
     .projectImage
       width: 15em
       height: 15em
+      flex-grow: 0

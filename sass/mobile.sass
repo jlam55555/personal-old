@@ -7,17 +7,28 @@
 a
   color: $darkgrey
 
-html, body
-  margin: 0 auto
+body
+  margin: 0
   padding: 0
-  background-color: white
   font-family: $font
+  background-color: rgba(255, 255, 255, 0.95)
   font-size: 16px
   font-weight: 300
   color: $darkgrey
   padding: 1em
   max-width: 50em
   max-height: 100%
+
+html
+  padding: 0  
+  margin: 0
+  max-width: 100%
+  max-height: 100%
+  background-image: url('../img/desk.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center center
+  background-attachment: fixed
 
 /* animated classes */
 @keyframes borderAnimation
@@ -79,6 +90,7 @@ html, body
     width: 5em
     height: 5em
     margin-bottom: 1em
+    border-radius: 100%
 
 #terminal
   background-color: $darkgrey
@@ -116,12 +128,13 @@ fieldset
   .project
     box-shadow: $darkgrey 0 0 1px
     padding: 0
-    margin: 2em 1em
     display: flex
     flex-direction: column
     background-color: $coolblue
     text-decoration: none
     position: relative
+    max-width: 25em
+    margin: 2em auto
 
     h3, p
       margin: 0.5em
