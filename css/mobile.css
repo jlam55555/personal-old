@@ -9,7 +9,7 @@ a {
 
 body {
   margin: 0;
-  padding: 0;
+  transition: margin 0.2s, padding 0.2s;
   font-family: "quicksand", sans-serif;
   background-color: rgba(255, 255, 255, 0.95);
   font-size: 16px;
@@ -70,8 +70,7 @@ html {
   padding: 2em 0;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin: 1em 0; }
+  align-items: center; }
   #title.normalMargins {
     margin: 1em 0 !important;
     transition: margin 1s ease-in-out; }
@@ -82,12 +81,18 @@ html {
     border-radius: 100%; }
 
 #terminal {
-  background-color: #444444;
+  background-color: #131926;
   color: #F2F8EA;
   padding: 0.5em;
   border-radius: 0.25em;
   font-family: "source code pro", courier new;
   overflow: hidden; }
+  #terminal #greenPrompt {
+    color: #00ff00; }
+  #terminal #bluePrompt {
+    color: #5555ff; }
+  #terminal #dynamicTerminal {
+    color: #F2F8EA; }
 
 @keyframes blinkAnimation {
   0% {

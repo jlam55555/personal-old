@@ -9,7 +9,7 @@ a
 
 body
   margin: 0
-  padding: 0
+  transition: margin 0.2s, padding 0.2s
   font-family: $font
   background-color: rgba(255, 255, 255, 0.95)
   font-size: 16px
@@ -74,7 +74,6 @@ html
   flex-direction: column
   justify-content: center
   align-items: center
-  margin: 1em 0
 
   &.normalMargins
     margin: 1em 0 !important
@@ -93,12 +92,21 @@ html
     border-radius: 100%
 
 #terminal
-  background-color: $darkgrey
+  background-color: #131926
   color: $white
   padding: 0.5em
   border-radius: 0.25em
   font-family: $codeFont
   overflow: hidden
+
+  #greenPrompt
+    color: #00ff00
+  
+  #bluePrompt
+    color: #5555ff
+
+  #dynamicTerminal
+    color: $white
 
 @keyframes blinkAnimation
   0%

@@ -1,7 +1,8 @@
 /* color pallette courtesy of: http://flatcolors.net/palette/460-iam-truckburger */
 /* from http://flatcolors.net/palette/745-urban-humanity */
 body {
-  margin: 2em auto; }
+  margin: 2em auto;
+  padding: 2em 5em; }
 
 fieldset .project {
   flex-direction: row;
