@@ -19,5 +19,7 @@ fieldset {
       width: 15em;
       height: 15em;
       flex-grow: 0; }
+  fieldset#minorProjects .project .projectInfo {
+    flex-basis: 100%; }
 
 /*# sourceMappingURL=desktop.css.map */

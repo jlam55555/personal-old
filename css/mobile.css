@@ -133,11 +133,31 @@ fieldset {
     fieldset .project .projectImage {
       width: 100%; }
 
-.profileBadge {
-  margin: 1em 0;
-  display: block;
+#contact {
   text-align: center; }
-  .profileBadge img {
-    margin: 0 auto; }
+
+.profileBadge {
+  text-decoration: none;
+  text-align: center; }
+  .profileBadge .socialMedia {
+    box-sizing: content-box;
+    transition: all 0.2s;
+    cursor: pointer;
+    padding: 0.25em;
+    font-size: 3em;
+    vertical-align: baseline; }
+    .profileBadge .socialMedia:hover {
+      font-size: 4.5em;
+      padding: 0; }
+    .profileBadge .socialMedia.fa-github-alt:hover {
+      color: #6e5494; }
+    .profileBadge .socialMedia.fa-stack-overflow:hover {
+      color: #f48024; }
+    .profileBadge .socialMedia.fa-jsfiddle:hover {
+      color: #2795ee; }
+    .profileBadge .socialMedia.fa-code:hover {
+      color: #b92521; }
+    .profileBadge .socialMedia.fa-calculator:hover {
+      color: #89cf49; }
 
 /*# sourceMappingURL=mobile.css.map */
