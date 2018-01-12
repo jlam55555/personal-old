@@ -11,7 +11,7 @@ body {
   margin: 0;
   transition: margin 0.2s, padding 0.2s;
   font-family: "quicksand", sans-serif;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: white;
   font-size: 16px;
   font-weight: 300;
   color: #444444;
@@ -47,15 +47,15 @@ html {
   position: absolute; }
 
 .animatedBorderBefore, #title::before {
-  border-top: 1px solid #73B1D6;
-  border-right: 1px solid #73B1D6;
+  border-top: 1px solid #95D3F8;
+  border-right: 1px solid #95D3F8;
   top: 0;
   left: 0;
   animation: borderAnimation 1s linear 0s 1 normal forwards; }
 
 .animatedBorderAfter, #title::after {
-  border-bottom: 1px solid #73B1D6;
-  border-left: 1px solid #73B1D6;
+  border-bottom: 1px solid #95D3F8;
+  border-left: 1px solid #95D3F8;
   bottom: 0;
   right: 0;
   animation: borderAnimation 1s linear 0s 1 normal forwards; }
@@ -64,7 +64,7 @@ html {
 #title {
   position: relative;
   font-weight: 300;
-  color: #73B1D6;
+  color: #95D3F8;
   text-align: center;
   display: flex;
   padding: 2em 0;
@@ -110,17 +110,17 @@ html {
     animation: blinkAnimation 2s infinite; }
 
 fieldset {
-  border: 1px solid #73B1D6;
+  border: 1px solid #95D3F8;
   margin: 2em 0; }
   fieldset legend {
-    color: #73B1D6;
+    color: #95D3F8;
     font-weight: 500; }
   fieldset .project {
     box-shadow: #444444 0 0 1px;
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: #F6F7F2;
+    background-color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
     position: relative;
     max-width: 25em;
@@ -133,8 +133,10 @@ fieldset {
     fieldset .project .projectImage {
       width: 100%; }
 
-#contact {
+#about {
   text-align: center; }
+  #about p, #about legend {
+    text-align: left; }
 
 .profileBadge {
   text-decoration: none;
@@ -159,5 +161,9 @@ fieldset {
       color: #b92521; }
     .profileBadge .socialMedia.fa-calculator:hover {
       color: #89cf49; }
+
+#copyright {
+  font-size: smaller;
+  text-align: center; }
 
 /*# sourceMappingURL=mobile.css.map */

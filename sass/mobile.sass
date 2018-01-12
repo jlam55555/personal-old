@@ -11,7 +11,7 @@ body
   margin: 0
   transition: margin 0.2s, padding 0.2s
   font-family: $font
-  background-color: rgba(255, 255, 255, 0.95)
+  background-color: white
   font-size: 16px
   font-weight: 300
   color: $darkgrey
@@ -138,7 +138,7 @@ fieldset
     padding: 0
     display: flex
     flex-direction: column
-    background-color: $coolblue
+    background-color: rgba(255, 255, 255, 0.5)
     text-decoration: none
     position: relative
     max-width: 25em
@@ -154,8 +154,11 @@ fieldset
     .projectImage
       width: 100%
 
-#contact
+#about
   text-align: center
+
+  p, legend
+    text-align: left
 
 .profileBadge
   text-decoration: none
@@ -183,3 +186,7 @@ fieldset
       color: #b92521
     &.fa-calculator:hover
       color: #89cf49
+      
+#copyright
+  font-size: smaller
+  text-align: center
