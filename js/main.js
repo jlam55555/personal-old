@@ -78,6 +78,13 @@ $(() => {
       image: "img/safe-rides-er9.png"
     },
     {
+      url: "https://jbhsbowling.github.io",
+      title: "JBHS Bowling (new)",
+      link: "jbhsbowling.github.io",
+      description: "The new website for the JBHS CIBL Bowling Team",
+      image: "img/jbhs-bowling.png"
+    },
+    {
       url: "http://jonathanlam.tech/ringtune-website",
       title: "RingTune",
       link: "jonathanlam.tech/ringtune-website",
@@ -171,10 +178,16 @@ $(() => {
       description: "A simple jQuery animation inspired by @huntrr"
     },
     {
+      url: "https://sites.google.com/er9.org/jlamapcsp2017",
+      title: "AP CSP Portfolio",
+      link: "sites.google.com/er9.org/jlamapcsp2017",
+      description: "Not really a project, but creative projects and reflections from the AP Computer Science Principles class",
+    },
+    {
       url: "http://barlowbowling.github.io",
       title: "Barlow Bowling",
       link: "barlowbowling.github.io",
-      description: "The website for the Barlow Bowling Team"
+      description: "The (old) website for the Barlow Bowling Team. See above for the newer version"
     },
     {
       url: "http://barlowprogramming.github.io",
