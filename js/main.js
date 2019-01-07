@@ -15,9 +15,9 @@ $(() => {
   var random = n => Math.floor(Math.random() * (typeof n === "object" ? n.length : n));
 
   // redirect from github site
-  if(window.location.href.indexOf("jlam55555.github.io") >= 0) {
+  /*if(window.location.href.indexOf("jlam55555.github.io") >= 0) {
     window.location.href = "http://jonathanlam.tech";
-  }
+  }*/
 
   // onload animation -- needs slight delay to work
   setTimeout(function() {
